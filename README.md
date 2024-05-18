@@ -16,3 +16,7 @@ It's a sudoku solver. It solves sudoku.
 requirement
   c. How it would be possible to extend your application?
 It could be integrated with a website instead of being a downloadable program.
+
+4. Resources, references list.
+
+https://medium.com/@sumanthbotlagunta977/sudoku-solver-in-python-7734d5f53387
