@@ -10,12 +10,17 @@ Write a puzzle inside a "Input.txt" file then run the program. The solution shou
     a. Explain how the program covers (implements) functional requirements
 4 OOP pillars:
 Inheritance
+
 ![image](https://github.com/Xestrojer/Sudoku-solver/assets/167772879/a150b845-3ab7-4e69-a1df-9fb87822fd63)
+
 Abstract
+
 ![image](https://github.com/Xestrojer/Sudoku-solver/assets/167772879/7cd8e52b-860f-465a-bba6-9d772859ca88)
+
 Polymorphism
 It is capable of Polymorthisim but doesn't implament it in current state.
 Encapsulation
+
 ![image](https://github.com/Xestrojer/Sudoku-solver/assets/167772879/36dc63b8-c45c-483b-8369-85498affd93e)
 
 It has two design paterns:
