@@ -40,10 +40,12 @@ class SudokuBoard(Board):
         )
 
     def __valid_row(self, row, num):
-        return num not in self.grid[row]
+        self.valid_num_row = num not in self.grid[row]
+        return self.valid_num_row
 
     def __valid_col(self, col, num):
-        return num not in [self.grid[row][col] for row in range(self.size)]
+        self.valid_num_col = num not in [self.grid[row][col] for row in range(self.size)]
+        return self.valid_num_col
 
     def __valid_box(self, row, col, num):
         start_row = self.boxsize * (row // self.boxsize)
